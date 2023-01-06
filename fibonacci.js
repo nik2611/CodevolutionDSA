@@ -20,3 +20,17 @@ for(let i=0; i <= n-1; i++){  //Time complexity is O(n)
 }
     console.log(`fibonacci sequence is ${fiboSeq}`);
 }
+
+
+/* Better way with small modifications to my approach
+
+const fiboSeq = [0, 1];
+for(let i=2; i < n; i++){  //Time complexity is O(n)
+
+  
+    fiboSeq[i] = fiboSeq[i-1] + fiboSeq[i-2];
+    
+}
+    console.log(`fibonacci sequence is ${fiboSeq}`);
+
+*/
