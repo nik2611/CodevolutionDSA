@@ -19,5 +19,5 @@ function primeNumber(number) {
 
 
     for (let i=0;i<arr.length;i++) {
-console.log(`${arr[i]}, ${primeNumber(arr[i])} \n`);
+console.log(`${arr[i]} ${primeNumber(arr[i])} \n`);
     }
