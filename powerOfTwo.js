@@ -1,5 +1,9 @@
 function powerOfTwo(n) {
 
+    if(n < 1){
+        return false;
+    }
+    
     while(n%2 == 0){
        n /= 2;                // Big(O) is O(logn)
     }
