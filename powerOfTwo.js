@@ -1,10 +1,10 @@
 function powerOfTwo(n) {
 
-    while(n%2 == 0 && n !== 2){
+    while(n%2 == 0){
        n /= 2;
     }
 
-    if (n == 2){
+    if (n == 1){
         return true;
     }
     else{
@@ -13,5 +13,5 @@ function powerOfTwo(n) {
 
 }
 
-console.log(powerOfTwo(148));
-console.log(powerOfTwo(130));
+console.log(powerOfTwo(8));
+console.log(powerOfTwo(13));
